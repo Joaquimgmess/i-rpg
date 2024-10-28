@@ -1,0 +1,16 @@
+export interface PlayerStats {
+  hp: number;
+  maxHp: number;
+  attack: number;
+  defense: number;
+}
+
+export interface Player {
+  name: string;
+  class: string;
+  level: number;
+  xp: number;
+  xpToNextLevel: number;
+  gold: number;
+  stats: PlayerStats;
+}
